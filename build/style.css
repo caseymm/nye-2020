@@ -27,7 +27,7 @@ a {
   padding-bottom: 15px;
   max-width: 800px;
   width: calc(100%-60px);
-  border: 1px solid #a07938; }
+  border: 1px solid #d6982d; }
   @media (max-width: 860px) {
     #main-container {
       margin: 25px; } }
@@ -104,7 +104,7 @@ input {
   @media (max-width: 500px) {
     input {
       font-size: 30px;
-      margin: 30px auto;
+      margin: 0px auto 60px;
       max-width: 347px; } }
   input:focus {
     outline: none; }
@@ -133,7 +133,10 @@ input {
     float: right;
     top: -110px;
     font-size: 22px;
-    cursor: pointer; }
+    cursor: pointer;
+    right: 13px; }
+  .input-wrapper h4 {
+    margin-bottom: 10px; }
 
 .ex {
   font-size: 40px;
@@ -210,6 +213,13 @@ input {
     width: 100%;
     background-color: #d6982d;
     margin: 0 20px; }
+    @media (max-width: 500px) {
+      .breaker .line {
+        margin: 0 10px; } }
   .breaker .emblem {
     width: 30%;
     max-width: 100px; }
+    @media (max-width: 500px) {
+      .breaker .emblem {
+        width: 180px;
+        margin-top: 3px; } }

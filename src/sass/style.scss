@@ -34,7 +34,7 @@ a{
   padding-bottom: 15px;
   max-width: 800px;
   width: calc(100%-60px);
-  border: 1px solid #a07938;
+  border: 1px solid #d6982d;
   @media(max-width: 860px){
     margin: 25px;
   }
@@ -121,7 +121,7 @@ input{
   text-align: center;
   @media(max-width: $break-width){
     font-size: 30px;
-    margin: 30px auto;
+    margin: 0px auto 60px;
     max-width: 347px;
   }
   &:focus {outline:none;}
@@ -156,7 +156,11 @@ input{
       top: -110px;
       font-size: 22px;
       cursor: pointer;
+      right: 13px;
     }
+  }
+  h4{
+    margin-bottom: 10px;
   }
 }
 
@@ -237,9 +241,16 @@ input{
     width: 100%;
     background-color: #d6982d;
     margin: 0 20px;
+    @media(max-width: $break-width){
+      margin: 0 10px;
+    }
   }
   .emblem{
     width: 30%;
     max-width: 100px;
+    @media(max-width: $break-width){
+      width: 180px;
+      margin-top: 3px;
+    }
   }
 }
